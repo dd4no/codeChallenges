@@ -7,7 +7,6 @@ class Program
     {
         // Part 1
         List<int> numbers = new List<int>() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
-        List<int> result = new List<int>();
         foreach (int number in numbers)
         {
             if (number % 2 == 0)
@@ -23,9 +22,6 @@ class Program
         {
             Console.WriteLine(numsToSquare[i] * numsToSquare[i]);
         }
-
-
-
 
         Console.Read();
     }
